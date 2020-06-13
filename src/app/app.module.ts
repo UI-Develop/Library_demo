@@ -4,6 +4,7 @@ import { FormsModule } from '@angular/forms';
 import { BrowserModule } from '@angular/platform-browser';
 import { LoginModule } from './login/login.module';
 import { AppComponent } from './app.component';
+import { MyLibModule } from 'my-lib';
 //import { UserlistComponent} from '../'
 import { RouterModule } from '@angular/router';
 import { AppRoutingModule } from './app-routing.module';
@@ -15,6 +16,7 @@ import { AppRoutingModule } from './app-routing.module';
     BrowserModule,
     FormsModule,
     HttpClientModule,
+    MyLibModule,
     AppRoutingModule
   ],
   providers: [],
